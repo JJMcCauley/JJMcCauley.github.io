@@ -1,0 +1,132 @@
+  /* ============================================= */
+  /*              Media Queries                    */
+  /* ============================================= */
+  @media (min-width: 576px) {
+    .p-email {
+      font-size: 1.2rem;
+    }
+    .w-50 {
+      width: 50%
+    }
+    .l-text {
+      margin-left: 1.3rem;
+    }
+    
+
+  } 
+
+  @media (min-width: 768px) {
+    .list-group-horizontal{
+      flex-direction: row;
+    }
+    
+    .list-group-horizontal>.list-group-item:first-child {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .list-group-horizontal>.list-group-item:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+    
+
+
+  }
+
+  @media (min-width: 992px) {
+    .w-80 {
+      width: 80%;
+  }
+
+    .p-email {
+      font-size: .7em;
+    }
+
+    .project-card-body {
+      height: 500px;
+    }
+
+    .flex-c-sb {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .flex-c-c {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .flex-c-sa {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    #bio-wrapper,
+    #profile-card {
+      height: 330px;
+    }
+
+    #skills-info {
+      height: 400px;
+    }
+
+    #interests-wrapper,
+    #skills-wrapper {
+      height: 550px;
+    }
+
+    .p-m {
+      padding: .8rem;
+    }
+
+
+
+  }
+
+  @media (min-width: 1200px) {
+    .w-m-90 {
+      width: 90%;
+    }
+
+    .p-email {
+      font-size: .8em;
+    }
+
+    #interests-wrapper,
+    #skills-wrapper {
+      height: 550px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1517px;
+    }
+
+    .p-email {
+      font-size: .9em;
+    }
+
+    .list-group-item {
+      font-size: 1.2em;
+    }
+
+    #interests-wrapper,
+    #skills-wrapper {
+      height: 550px;
+    }
+
+    #skills-info {
+      height: 390px;
+    }
+
+    .project-card-body {
+      height: 425px;
+    }
+  }
+  
+  
+ 
