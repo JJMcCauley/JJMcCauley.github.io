@@ -29,6 +29,9 @@
       border-top-left-radius: 0;
     }
     
+    .hide-small {
+      display: block;
+    }
 
 
   }
@@ -43,7 +46,7 @@
     }
 
     .project-card-body {
-      height: 500px;
+      height: 625px;
     }
 
     .flex-c-sb {
@@ -124,7 +127,7 @@
     }
 
     .project-card-body {
-      height: 425px;
+      height: 500px;
     }
   }
 

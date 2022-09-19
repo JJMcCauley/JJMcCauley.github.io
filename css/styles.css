@@ -80,6 +80,14 @@
           justify-content: space-between;
 }
 
+.hide-small {
+  display: none;
+}
+
+iframe {
+  width: 100%;
+}
+
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
@@ -404,6 +412,9 @@ ul a {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
   }
+  .hide-small {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
@@ -414,7 +425,7 @@ ul a {
     font-size: .7em;
   }
   .project-card-body {
-    height: 500px;
+    height: 625px;
   }
   .flex-c-sb {
     display: -webkit-box;
@@ -498,6 +509,6 @@ ul a {
     height: 390px;
   }
   .project-card-body {
-    height: 425px;
+    height: 500px;
   }
 }
