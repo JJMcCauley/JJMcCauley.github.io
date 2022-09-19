@@ -1,0 +1,68 @@
+main {
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-position-x: 10%;
+}
+
+* {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: rgb(13, 202, 240);
+}
+
+h4 {
+    color: rgb(46, 194, 46);
+}
+
+p {
+    color: rgb(150, 150, 150);
+    font-size: 1.2rem;
+}
+
+#common-info,
+#magic-info {
+    display: none;
+}
+
+#magic-info {
+    color: rgb(121, 40, 121);
+}
+
+#side-note {
+    font-size: .8rem;
+}
+
+img#class-photo {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+div#spell-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div#subclass-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.footer {
+    display: flex;
+}
+
+a {
+    cursor: pointer;
+}
+
+h5#spell-label {
+    margin-left: 35%;
+}
+
+.montserrat {
+    color: white;
+}
