@@ -71,3 +71,14 @@
 iframe {
     width: 100%;
 }
+
+.secret {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+.secret:hover {
+    cursor: text;
+}
